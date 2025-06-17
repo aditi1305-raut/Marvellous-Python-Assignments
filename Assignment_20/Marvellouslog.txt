@@ -1,0 +1,12 @@
+------------------------------------------------------
+----------------------------- Marvellous Automations -----------------------------
+------------------------------------------------------
+Deleted File:  C:\Users\hp\OneDrive\Desktop\Marvellous_Assignment\Assignment_20\Sample\Assignment1_1.py
+Deleted File:  C:\Users\hp\OneDrive\Desktop\Marvellous_Assignment\Assignment_20\Sample\Assignment1_2.py
+Deleted File:  C:\Users\hp\OneDrive\Desktop\Marvellous_Assignment\Assignment_20\Sample\Assignment1_3.py
+Total Deleted File:  3
+Time Required for Execution is:  0.002628326416015625
+------------------------------------------------------
+------------------------- Thanks For Using our Script --------------------------
+--------------------------Marvellous Infosystems ---------------------------------
+------------------------------------------------------
