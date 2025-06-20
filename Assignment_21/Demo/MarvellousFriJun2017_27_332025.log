@@ -1,0 +1,623 @@
+--------------------------------------------------------------------------------
+		Marvellous Infosystems Process Log
+
+		 File is Created at  Fri Jun 20 17:27:33 2025
+{'pid': 0, 'username': 'NT AUTHORITY\\SYSTEM', 'name': 'System Idle Process'} 
+
+{'pid': 4, 'username': 'NT AUTHORITY\\SYSTEM', 'name': 'System'} 
+
+{'pid': 172, 'username': None, 'name': ''} 
+
+{'pid': 208, 'username': None, 'name': 'Registry'} 
+
+{'pid': 712, 'username': None, 'name': 'fontdrvhost.exe'} 
+
+{'pid': 880, 'username': None, 'name': 'smss.exe'} 
+
+{'pid': 1084, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 1168, 'username': None, 'name': 'csrss.exe'} 
+
+{'pid': 1204, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 1212, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 1272, 'username': None, 'name': 'wininit.exe'} 
+
+{'pid': 1356, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'msedge.exe'} 
+
+{'pid': 1380, 'username': None, 'name': 'services.exe'} 
+
+{'pid': 1396, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'taskhostw.exe'} 
+
+{'pid': 1424, 'username': None, 'name': 'LsaIso.exe'} 
+
+{'pid': 1452, 'username': None, 'name': 'lsass.exe'} 
+
+{'pid': 1572, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 1588, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 1600, 'username': None, 'name': 'fontdrvhost.exe'} 
+
+{'pid': 1656, 'username': None, 'name': 'WUDFHost.exe'} 
+
+{'pid': 1680, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'conhost.exe'} 
+
+{'pid': 1740, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 1748, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 1792, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 1884, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 1900, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 1920, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 1932, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 1952, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 1968, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 2004, 'username': None, 'name': 'SecurityHealthService.exe'} 
+
+{'pid': 2140, 'username': None, 'name': 'IntelCpHDCPSvc.exe'} 
+
+{'pid': 2160, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 2220, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 2228, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 2236, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 2268, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'RuntimeBroker.exe'} 
+
+{'pid': 2388, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'TextInputHost.exe'} 
+
+{'pid': 2448, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 2476, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 2536, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 2544, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'svchost.exe'} 
+
+{'pid': 2588, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 2600, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 2624, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'powershell.exe'} 
+
+{'pid': 2704, 'username': None, 'name': 'WUDFHost.exe'} 
+
+{'pid': 2828, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 2876, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'chrome.exe'} 
+
+{'pid': 2908, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'msedge.exe'} 
+
+{'pid': 2944, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'chrome.exe'} 
+
+{'pid': 2948, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 2964, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 3176, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 3220, 'username': None, 'name': 'SynTPEnhService.exe'} 
+
+{'pid': 3228, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 3272, 'username': None, 'name': 'WUDFHost.exe'} 
+
+{'pid': 3364, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 3412, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 3420, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 3432, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'uihost.exe'} 
+
+{'pid': 3444, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 3452, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 3620, 'username': None, 'name': 'MemCompression'} 
+
+{'pid': 3676, 'username': None, 'name': 'WmiPrvSE.exe'} 
+
+{'pid': 3688, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 3732, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'RuntimeBroker.exe'} 
+
+{'pid': 3764, 'username': None, 'name': 'AppHelperCap.exe'} 
+
+{'pid': 3772, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 3780, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 3792, 'username': None, 'name': 'DiagsCap.exe'} 
+
+{'pid': 3808, 'username': None, 'name': 'NetworkCap.exe'} 
+
+{'pid': 3816, 'username': None, 'name': 'SysInfoCap.exe'} 
+
+{'pid': 3860, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'RuntimeBroker.exe'} 
+
+{'pid': 3880, 'username': None, 'name': 'TouchpointAnalyticsClientService.exe'} 
+
+{'pid': 3992, 'username': None, 'name': 'spoolsv.exe'} 
+
+{'pid': 4008, 'username': None, 'name': 'WUDFHost.exe'} 
+
+{'pid': 4020, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'chrome.exe'} 
+
+{'pid': 4144, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'Code.exe'} 
+
+{'pid': 4152, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 4176, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'unsecapp.exe'} 
+
+{'pid': 4232, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 4256, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'chrome.exe'} 
+
+{'pid': 4292, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'dllhost.exe'} 
+
+{'pid': 4324, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 4340, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'chrome.exe'} 
+
+{'pid': 4368, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'SystemOptimizer.exe'} 
+
+{'pid': 4428, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'SystemSettingsBroker.exe'} 
+
+{'pid': 4480, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'msedgewebview2.exe'} 
+
+{'pid': 4520, 'username': None, 'name': 'dwm.exe'} 
+
+{'pid': 4532, 'username': None, 'name': 'unsecapp.exe'} 
+
+{'pid': 4564, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'conhost.exe'} 
+
+{'pid': 4656, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 4660, 'username': None, 'name': 'WmiPrvSE.exe'} 
+
+{'pid': 4756, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'msedge.exe'} 
+
+{'pid': 4760, 'username': None, 'name': 'pgxsrv.exe'} 
+
+{'pid': 4788, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 4816, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 4936, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 4984, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 5008, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 5024, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 5076, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'conhost.exe'} 
+
+{'pid': 5232, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'OverlayHelper.exe'} 
+
+{'pid': 5252, 'username': None, 'name': 'wlanext.exe'} 
+
+{'pid': 5272, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 5332, 'username': None, 'name': 'conhost.exe'} 
+
+{'pid': 5388, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 5416, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'msedgewebview2.exe'} 
+
+{'pid': 5564, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'Code.exe'} 
+
+{'pid': 5580, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 5600, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 5616, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 5640, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'HPSystemEventUtilityHost.exe'} 
+
+{'pid': 5644, 'username': None, 'name': 'mDNSResponder.exe'} 
+
+{'pid': 5652, 'username': None, 'name': 'AppleMobileDeviceService.exe'} 
+
+{'pid': 5660, 'username': None, 'name': 'HPCommRecovery.exe'} 
+
+{'pid': 5668, 'username': None, 'name': 'nssm.exe'} 
+
+{'pid': 5676, 'username': None, 'name': 'OneApp.IGCC.WinService.exe'} 
+
+{'pid': 5684, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 5696, 'username': None, 'name': 'ipf_uf.exe'} 
+
+{'pid': 5712, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 5720, 'username': None, 'name': 'jhi_service.exe'} 
+
+{'pid': 5728, 'username': None, 'name': 'OraClrAgnt.exe'} 
+
+{'pid': 5736, 'username': None, 'name': 'TNSLSNR.EXE'} 
+
+{'pid': 5752, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 5768, 'username': None, 'name': 'nmesrvc.exe'} 
+
+{'pid': 5784, 'username': None, 'name': 'RtkAudUService64.exe'} 
+
+{'pid': 5792, 'username': None, 'name': 'pg_ctl.exe'} 
+
+{'pid': 5800, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 5808, 'username': None, 'name': 'oracle.exe'} 
+
+{'pid': 5828, 'username': None, 'name': 'MpDefenderCoreService.exe'} 
+
+{'pid': 5836, 'username': None, 'name': 'mfemms.exe'} 
+
+{'pid': 5848, 'username': None, 'name': 'IntelAudioService.exe'} 
+
+{'pid': 5856, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 5864, 'username': None, 'name': 'PEFService.exe'} 
+
+{'pid': 5876, 'username': None, 'name': 'OfficeClickToRun.exe'} 
+
+{'pid': 5888, 'username': None, 'name': 'XtuService.exe'} 
+
+{'pid': 5896, 'username': None, 'name': 'ELAN_MOC_Service.exe'} 
+
+{'pid': 5904, 'username': None, 'name': 'ipfsvc.exe'} 
+
+{'pid': 5944, 'username': None, 'name': 'SECOMN64.exe'} 
+
+{'pid': 5952, 'username': None, 'name': 'WMIRegistrationService.exe'} 
+
+{'pid': 5960, 'username': None, 'name': 'MsMpEng.exe'} 
+
+{'pid': 5976, 'username': None, 'name': 'mysqld.exe'} 
+
+{'pid': 6000, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 6048, 'username': None, 'name': 'ModuleCoreService.exe'} 
+
+{'pid': 6068, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'chrome.exe'} 
+
+{'pid': 6192, 'username': None, 'name': 'expressvpnd.exe'} 
+
+{'pid': 6200, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 6292, 'username': None, 'name': 'conhost.exe'} 
+
+{'pid': 6508, 'username': None, 'name': 'conhost.exe'} 
+
+{'pid': 6916, 'username': None, 'name': 'mysqld.exe'} 
+
+{'pid': 6940, 'username': None, 'name': 'conhost.exe'} 
+
+{'pid': 7152, 'username': None, 'name': 'McCSPServiceHost.exe'} 
+
+{'pid': 7348, 'username': None, 'name': 'postgres.exe'} 
+
+{'pid': 7368, 'username': None, 'name': 'conhost.exe'} 
+
+{'pid': 7400, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'msedge.exe'} 
+
+{'pid': 7424, 'username': None, 'name': 'AggregatorHost.exe'} 
+
+{'pid': 7428, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 7636, 'username': None, 'name': 'postgres.exe'} 
+
+{'pid': 7644, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'msedgewebview2.exe'} 
+
+{'pid': 7688, 'username': None, 'name': 'MMSSHOST.exe'} 
+
+{'pid': 7704, 'username': None, 'name': 'postgres.exe'} 
+
+{'pid': 7716, 'username': None, 'name': 'postgres.exe'} 
+
+{'pid': 7784, 'username': None, 'name': 'ProtectedModuleHost.exe'} 
+
+{'pid': 7856, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'Code.exe'} 
+
+{'pid': 7932, 'username': None, 'name': 'postgres.exe'} 
+
+{'pid': 7964, 'username': None, 'name': 'csrss.exe'} 
+
+{'pid': 7984, 'username': None, 'name': 'mfevtps.exe'} 
+
+{'pid': 7996, 'username': None, 'name': 'postgres.exe'} 
+
+{'pid': 8004, 'username': None, 'name': 'postgres.exe'} 
+
+{'pid': 8064, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'chrome.exe'} 
+
+{'pid': 8168, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 8536, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'duet.exe'} 
+
+{'pid': 8540, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'TabTip.exe'} 
+
+{'pid': 8568, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'BridgeCommunication.exe'} 
+
+{'pid': 8604, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'explorer.exe'} 
+
+{'pid': 8852, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'Code.exe'} 
+
+{'pid': 8912, 'username': None, 'name': 'ModuleCoreService.exe'} 
+
+{'pid': 8924, 'username': None, 'name': 'conhost.exe'} 
+
+{'pid': 9056, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'Code.exe'} 
+
+{'pid': 9420, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'conhost.exe'} 
+
+{'pid': 9520, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'chrome.exe'} 
+
+{'pid': 9620, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'LocationNotificationWindows.exe'} 
+
+{'pid': 9664, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'SecurityHealthSystray.exe'} 
+
+{'pid': 9708, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'backgroundTaskHost.exe'} 
+
+{'pid': 10132, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'PhoneExperienceHost.exe'} 
+
+{'pid': 10284, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'Code.exe'} 
+
+{'pid': 10388, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'RuntimeBroker.exe'} 
+
+{'pid': 10416, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 10444, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 10496, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'Code.exe'} 
+
+{'pid': 10616, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 10636, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 10684, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'ipf_helper.exe'} 
+
+{'pid': 10716, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'svchost.exe'} 
+
+{'pid': 10812, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'ms-teams.exe'} 
+
+{'pid': 10848, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'smartscreen.exe'} 
+
+{'pid': 11012, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 11152, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'MfeBrowserHost.exe'} 
+
+{'pid': 11200, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'msedge.exe'} 
+
+{'pid': 11220, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'ExpressVPNNotificationService.exe'} 
+
+{'pid': 11224, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'svchost.exe'} 
+
+{'pid': 11288, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'HPEnhancedLighting.Bg.exe'} 
+
+{'pid': 11476, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'OpenConsole.exe'} 
+
+{'pid': 11636, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'chrome.exe'} 
+
+{'pid': 11732, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'svchost.exe'} 
+
+{'pid': 11752, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 11760, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'chrome.exe'} 
+
+{'pid': 12060, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'RuntimeBroker.exe'} 
+
+{'pid': 12084, 'username': None, 'name': 'SearchIndexer.exe'} 
+
+{'pid': 12216, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'Code.exe'} 
+
+{'pid': 12224, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'HPMediaNetwork.exe'} 
+
+{'pid': 12376, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'EdrawMaxTray.exe'} 
+
+{'pid': 12644, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 12732, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'HPSystemEventUtilityBackground.exe'} 
+
+{'pid': 12760, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'RuntimeBroker.exe'} 
+
+{'pid': 12984, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 12996, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'chrome.exe'} 
+
+{'pid': 13060, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'pet.exe'} 
+
+{'pid': 13072, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'OmenInstallMonitor.exe'} 
+
+{'pid': 13080, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 13088, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'SnippingTool.exe'} 
+
+{'pid': 13372, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'cmd.exe'} 
+
+{'pid': 13388, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'browserhost.exe'} 
+
+{'pid': 13540, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 13584, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'SystemSettings.exe'} 
+
+{'pid': 13588, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'ms-teams.exe'} 
+
+{'pid': 13648, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'RuntimeBroker.exe'} 
+
+{'pid': 13892, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 14144, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'chrome.exe'} 
+
+{'pid': 14332, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'RuntimeBroker.exe'} 
+
+{'pid': 14964, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 14980, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'SynTPEnh.exe'} 
+
+{'pid': 15112, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'Code.exe'} 
+
+{'pid': 15144, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'msedgewebview2.exe'} 
+
+{'pid': 15256, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 15284, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'SearchHost.exe'} 
+
+{'pid': 15672, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'cmd.exe'} 
+
+{'pid': 15888, 'username': None, 'name': 'SearchProtocolHost.exe'} 
+
+{'pid': 15960, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'svchost.exe'} 
+
+{'pid': 16076, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 16344, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'ctfmon.exe'} 
+
+{'pid': 16496, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'OneDrive.exe'} 
+
+{'pid': 16556, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 16632, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'CodeSetup-stable-18e3a1ec544e6907be1e944a94c496e302073435.tmp'} 
+
+{'pid': 16636, 'username': None, 'name': 'servicehost.exe'} 
+
+{'pid': 16904, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'dllhost.exe'} 
+
+{'pid': 16908, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'ApplicationFrameHost.exe'} 
+
+{'pid': 17420, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'conhost.exe'} 
+
+{'pid': 17496, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'msedgewebview2.exe'} 
+
+{'pid': 17552, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'WhatsApp.exe'} 
+
+{'pid': 18236, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'WindowsTerminal.exe'} 
+
+{'pid': 18280, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'backgroundTaskHost.exe'} 
+
+{'pid': 18308, 'username': None, 'name': 'mcapexe.exe'} 
+
+{'pid': 18316, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'UserOOBEBroker.exe'} 
+
+{'pid': 18520, 'username': None, 'name': 'MfeAVSvc.exe'} 
+
+{'pid': 18536, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 18676, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'ShellExperienceHost.exe'} 
+
+{'pid': 19108, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 19124, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'svchost.exe'} 
+
+{'pid': 19184, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'Widgets.exe'} 
+
+{'pid': 19268, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'StartMenuExperienceHost.exe'} 
+
+{'pid': 19368, 'username': None, 'name': 'mcshield.exe'} 
+
+{'pid': 19396, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'dllhost.exe'} 
+
+{'pid': 19464, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'sihost.exe'} 
+
+{'pid': 19864, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'chrome.exe'} 
+
+{'pid': 20256, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'Code.exe'} 
+
+{'pid': 20520, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'cmd.exe'} 
+
+{'pid': 20620, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'ModuleCoreService.exe'} 
+
+{'pid': 20716, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'msedge.exe'} 
+
+{'pid': 20752, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'McUICnt.exe'} 
+
+{'pid': 20868, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'RuntimeBroker.exe'} 
+
+{'pid': 20892, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'RuntimeBroker.exe'} 
+
+{'pid': 21064, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'Video.UI.exe'} 
+
+{'pid': 21132, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'pgavgui.exe'} 
+
+{'pid': 21164, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'HP.myHP.exe'} 
+
+{'pid': 21208, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'CodeSetup-stable-18e3a1ec544e6907be1e944a94c496e302073435.exe'} 
+
+{'pid': 21340, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'SECOCL64.exe'} 
+
+{'pid': 21368, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'Code.exe'} 
+
+{'pid': 21392, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'LockApp.exe'} 
+
+{'pid': 21532, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'RtkAudUService64.exe'} 
+
+{'pid': 21896, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 21928, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'DesktopExtension.exe'} 
+
+{'pid': 22112, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'msedgewebview2.exe'} 
+
+{'pid': 22184, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'msedgewebview2.exe'} 
+
+{'pid': 22260, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'RuntimeBroker.exe'} 
+
+{'pid': 22372, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'RuntimeBroker.exe'} 
+
+{'pid': 22460, 'username': None, 'name': 'RtkAudUService64.exe'} 
+
+{'pid': 22464, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'svchost.exe'} 
+
+{'pid': 22468, 'username': None, 'name': 'winlogon.exe'} 
+
+{'pid': 22520, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 22536, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'chrome.exe'} 
+
+{'pid': 22580, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'WidgetService.exe'} 
+
+{'pid': 22644, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'Code.exe'} 
+
+{'pid': 22784, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'Code.exe'} 
+
+{'pid': 22840, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'svchost.exe'} 
+
+{'pid': 23008, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'OmenCommandCenterBackground.exe'} 
+
+{'pid': 23356, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'svchost.exe'} 
+
+{'pid': 24136, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 24364, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'FileCoAuth.exe'} 
+
+{'pid': 24688, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'msedge.exe'} 
+
+{'pid': 24784, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'conhost.exe'} 
+
+{'pid': 25140, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'python.exe'} 
+
+{'pid': 25332, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'chrome.exe'} 
+
+{'pid': 25408, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'chrome.exe'} 
+
+{'pid': 25752, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'conhost.exe'} 
+
+{'pid': 25880, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'msedge.exe'} 
+
+{'pid': 26032, 'username': None, 'name': 'svchost.exe'} 
+
+{'pid': 26284, 'username': 'LAPTOP-0V7CS9RT\\hp', 'name': 'chrome.exe'} 
+
+--------------------------------------------------------------------------------
