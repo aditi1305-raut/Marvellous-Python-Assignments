@@ -15,13 +15,13 @@ df = pd.DataFrame(data)
 
 print(df)
 
-df.set_index('Name',inplace=True) # Make Name the index
 
-sagar = df.loc['Sagar']   #Amit = Series of Marks
+#subjects = df['Math','Science','English']
+Marks = df[df['Name']=='Sagar'][['Math','Science','English']].values.flatten()  #flatten - Convert 2D into 1D
+subjects= ['Math','Science','English']
 
-plt.figure(figsize=(8,8))
-subjects = df['Math','Science','English']
-plt.pie(sagar.index,autopct='%1.1f%%',startangle=90)
+fig=plt.figure(figsize=(10,7))
+plt.pie(Marks,labels=subjects)
 plt.title("Sagar's Marks Distribution")
 plt.show()
 
