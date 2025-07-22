@@ -1,13 +1,46 @@
+'''
+Problem Statement – Automation Script: Duplicate File Removal
 
+Design a Python automation script that:
+
+1. Accepts a directory name from the user.
+
+2. Scans the directory and deletes all duplicate files by comparing their checksums.
+
+3. Creates a folder named Marvellous, and inside it, generate a log file that:
+
+Records the names of deleted duplicate files.
+
+Contains the date and time when each duplicate file was deleted.
+
+4. Accepts a time interval in minutes, and repeats the duplicate file removal task after that duration.
+
+5. Accepts a mail ID from the user and sends an email with the log file attached.
+
+-The email body should include:
+
+-Starting time of the scan
+
+-Total number of files scanned
+
+-Total number of duplicate files found
+
+'''
 
 
 import os
 import sys
 import time 
 import schedule  
-
+from datetime import datetime
 import hashlib              #used to calculate checksum
-
+import smtplib
+from email.message import EmailMessage
+import os
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+from email.mime.application import MIMEApplication
+import ssl
 
 
 def CalculateChecksum(path,BlockSize=1024):
@@ -25,146 +58,126 @@ def CalculateChecksum(path,BlockSize=1024):
     return hobj.hexdigest()
 
 
-  
       
-def FindDuplicate(DirectoryName = "Marvellous"):
+def DirectoryDuplicate(FileName):
+
+    StartTime = datetime.now()
+    StartEpoch = time.time()
     
-    flag = os.path.isabs(DirectoryName)
-
-    if (flag==False):
-        DirectoryName = os.path.abspath(DirectoryName)
+    if not os.path.isabs(FileName):
+        FileName = os.path.abspath(FileName)
         
-    flag = os.path.exists(DirectoryName)
-
-    if (flag == False):
-        print("The Path is Invalid")
+    if not os.path.exists(FileName):
         exit()
 
-    flag = os.path.isdir(DirectoryName)
-
-    if (flag == False):
-        print("Path is valid but the target is not a directory")
+    if not  os.path.isdir(FileName):
         exit()
     
+    TargetDir = "Marvellous"
+    if not os.path.exists(TargetDir):
+        os.mkdir(TargetDir)
 
-    Duplicate = {}
+    TimeStamp = StartTime.strftime("%Y-%m-%d_%H_%M_%S")
+    Logpath = os.path.join(TargetDir, f"DuplicateDeleteLog_{TimeStamp} .log")
 
-    for FolderName , SubFolderNames , FileNames in os.walk(DirectoryName):
-        
-        for fname in  FileNames:
-            fname = os.path.join(FolderName , fname )
-            Checksum = CalculateChecksum(fname)
+    fobj = open(Logpath , "w")
 
-            if Checksum in Duplicate:
-                Duplicate[Checksum].append(fname)
-
-            else:
-                Duplicate[Checksum] = [fname]
-
-    return Duplicate
-
-
-def Displayresult(MyDict):
-    Result = list(filter(lambda X : len(X)>1 , MyDict.values()))
-
-    count = 0
-
-    for value in Result:
-        for subvalue in value:
-            count = count + 1
-            print(subvalue)
-        print("-----------------------------------------------------------------")
-        print("Value of Count is:  ",count)
-        print("-----------------------------------------------------------------")
-        count = 0
-
-
-def DeleteDuplicate(Path="Marvellous"):
-
-    MyDict=FindDuplicate(Path)
-    Result = list(filter(lambda X : len(X)>1 , MyDict.values()))
-
-    count = 0
-    cnt = 0        #Total deleted values
-
-
-    for value in Result:
-        for subvalue in value:
-            count = count + 1
-            
-            if(count > 1):
-                print("Deleted File: ",subvalue)
-                os.remove(subvalue)
-                cnt = cnt + 1
-        
-        count = 0
-
-    print("Total Deleted File: ",cnt)
-
-def DirectoryWatcher(Result,DirectoryName = "Marvellous"):
-    
-    flag = os.path.isabs(DirectoryName)
-
-    if (flag==False):
-        DirectoryName = os.path.abspath(DirectoryName)
-        
-    flag = os.path.exists(DirectoryName)
-
-    if (flag == False):
-        print("The Path is Invalid")
-        exit()
-
-    flag = os.path.isdir(DirectoryName)
-
-    if (flag == False):
-        print("Path is invalid but the target is not a directory")
-        exit()
-    
-
-    for FolderName , SubFolderNames , FileNames in os.walk(DirectoryName):
-        
-        for fname in  FileNames:
-            fname = os.path.join(FolderName , fname )
-            Checksum = CalculateChecksum(fname)
-            print("File name: ",fname)
-            print("Checksum: ",Checksum)
-            print()
-
-    timestamp = time.ctime()
-    
-    timestamp = timestamp.replace(" ","")
-    timestamp = timestamp.replace(":" , "_")
-    timestamp = timestamp.replace('/',"_")
-
-    filename =  "Marvellous%sLog.log"%(timestamp)
-
-    fobj = open(filename , "w")
-
-    Border = "-"*80
-    fobj.write(Border)
-
-    fobj.write("\n\t\tThis  Log File Contains information of Duplicate Files\n\n ")
-    fobj.write(Border)
-
-    fobj.write("\n\n\n\n\n\n\n\n")
-    fobj.write(Border+"\n")
-    fobj.write("This File is created at \n"+timestamp+ "\n")
-
-    for value in Result:
-        fobj.write("%s \n\n" %value)
+    Border = "-"*90
 
     fobj.write(Border)
+    fobj.write("Deleted Duplicate Files log Details \n")
+    fobj.write(("Date:" +StartTime.strftime("%Y-%m-%d") +"   Time: "+StartTime.strftime("%H:%M:%S")).center(90)+"\n" )
+    
+    fobj.write(Border + "\n")
+
+    Duplicates = {}
+    TotalFiles = 0
+    DeletedFiles = 0
+    DeletedDetails = []
+
+    for Folder , Subfolders , Files in os.walk(FileName):
+        for file in Files:
+            Fname = os.path.join(Folder , file)
+
+        if (os.path.abspath(Fname) == os.path.abspath(Logpath)):
+            continue
+
+        TotalFiles += 1
+        checksum = CalculateChecksum(Fname)
+
+        if checksum in Duplicates :
+            os.remove(Fname)
+            DeletedFiles += 1
+            DeletedDetails.append(f"Deleted File: {os.path.basename(Fname)} \n Checksum : {checksum} \n\n")
+
+        else:
+            Duplicates[checksum] = Fname
+
+
+    fobj.write(f"Scanning Started at : {StartTime} \n")
+    fobj.write(f"Total Files Scanned : {TotalFiles} \n")
+    fobj.write(f"Total Duplicates Found: {DeletedFiles} \n\n")
+
+    fobj.write("Deleted Duplicate Files: \n\n")
+    for entry in DeletedDetails:
+        fobj.write(entry)
+
+    EndTime = time.time()
+
+    ExecutionTime = EndTime - StartEpoch
+    fobj.write(f"Execution Time: {ExecutionTime} Seconds \n"  )
+    fobj.write(Border +"\n")
 
     fobj.close()
 
 
-    fobj.write(Border+"\n")
+    return Logpath , StartTime , TotalFiles , DeletedFiles 
+
+def TimeInterval(Min, Directory , EmailSend):
+
+    def Task():
+        logfile , start , total ,deleted  = DirectoryDuplicate(Directory)
+        SendMail(logfile , EmailSend , start , total , deleted)
+
+    schedule.every(Min).seconds.do(Task)
+    while(True):
+
+        schedule .run_pending()
+        time.sleep(1)
+
+def SendMail(Logpath, receiver , StartTime , TotalFiles , DeletedFiles):
+    Subject = "Duplicate File Removal Report"
+    Body = (f"Report for Duplicate File Removal \nScanning Started at: {StartTime} \nTotal Files Scanned: {TotalFiles} \n Total Duplicate Files Found: {DeletedFiles}")
+
+    sender = "aditi.raut.1305@gmail.com"
+    password = "ehikekijnigvxoiq"
+
+    fobj = open(Logpath , 'rb')
+    log_data = fobj.read()
+    fobj.close()
+
+    msg = EmailMessage()
+    msg['Subject'] = Subject
+    msg['From'] = sender
+    msg['To'] = receiver
+    msg.set_content(Body)
+
+    msg.add_attachment(
+        log_data ,
+        maintype = 'application',
+        subtype='octet-stream',
+        filename = os.path.basename(Logpath)
+    )
+
+    smtp = smtplib.SMTP_SSL('smtp.gmail.com' , 465)
+    smtp.login(sender , password)
+    smtp.send_message(msg)
+    smtp.quit()
 
 
-         
+
+       
 def main():
-    
-    start_time = time.time()
     
     Border = "-"*54
     print(Border)
@@ -184,10 +197,16 @@ def main():
             print("please provide valid absolute Path")
 
  
-        else:
-           Result =DeleteDuplicate(sys.argv[1])
-           print(Result)
+    elif (len(sys.argv)==4):
+           Directory = sys.argv[1]
+           TimeInt = int(sys.argv[2])
+           EmailSend = sys.argv[3]
+           print("Code Run Successfully")
+           print(f"Directory name is: {Directory}\nTime Interval is: {TimeInt}\nEmail will be sent to:{EmailSend} ")
+
+           print(Border + "\n")           
            
+           TimeInterval(TimeInt , Directory ,EmailSend)
     
     else:
         print("Invalid number of Command Line Arguments")
@@ -196,16 +215,10 @@ def main():
         print("--u: Used To display the Usage ")
 
     
-    end_time = time.time()
-
-    print("Time Required for Execution is: ",(end_time - start_time ))
-    
     print(Border)
     print("------------------------- Thanks For Using our Script --------------------------")
     print("--------------------------Marvellous Infosystems ---------------------------------")
     print(Border)
-
-    
 
     
     
