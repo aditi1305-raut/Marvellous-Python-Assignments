@@ -57,3 +57,5 @@ Assignment No.	Topic / Description
 26	:PlayPredictor Case Study using KNN Classification and Label Encoding
 
 27	:Advertisement Sales Prediction using Linear Regression & Evaluation Metrics
+
+28 :Wine Class prediction using K_Nearest Neighbors
